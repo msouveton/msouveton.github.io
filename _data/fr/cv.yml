@@ -1,0 +1,110 @@
+- title: Information Générales
+  type: map
+  contents:
+    - name: Nom complet
+      value: Mahé Souveton
+    - name: Date de naissance
+      value: 22 août 1999
+    - name: Langues
+      value: Français, Anglais, Italien
+    - name: Email
+      value: mahe.souveton@gmail.com
+    - name: Emploi
+      value: Doctorant
+    - name: Localisation
+      value: Poitiers, France
+
+
+- title: Éducation
+  type: time_table
+  contents:
+    - title: Thèse de doctorat
+      institution: Université de Poitiers, Poitiers, France
+      year: 2023-2027
+      description:
+        - Étude des effets collectifs d'interaction rayonnement-matière dans les milieux poreux dont les hétérogénéités présentent des dimensions caractéristiques du même ordre de grandeur que la longueur d'onde
+        - title: Domaines
+          contents:
+            - Mathématiques
+            - Transfert radiatif
+            - Électromagnétisme
+            - Modélisation
+    - title: École d'ingénieurs
+      institution: ISAE-ENSMA, Poitiers, France
+      year: 2019-2022
+      description:
+        - Spécialité aérodynamique
+        - title: Autres domaines
+          contents:
+            - Mathématiques
+            - Mécanique des fluides
+            - Transferts thermiques
+            - Combustion
+            - Matériaux et structures
+            - Informatique
+    - title: Classe Préparatoire aux Grandes Écoles
+      institution: CPGE Claude Fauriel, Saint-Étienne, France
+      year: 2017-2019
+      description:
+        - Classe MP* option SI
+    - title: Baccalauréat Scientifique
+      institution: Lycée François Mauriac, Saint-Étienne, France
+      year: 2017
+      description:
+        - Option SI spécialité Informatique
+
+- title: Expérience
+  type: time_table
+  contents:
+    - title: Animateur scientifique
+      institution: Planétarium Espace Mendès France, Poitiers, France
+      year: 01/2023 - 06/2022
+      description:
+        - Animation du ciel étoilé du planétarium
+        - Conférencier sur des nocturnes spéciales astrophysique
+        - Vulgarisation en déplacement dans des écoles, collèges et lycées
+    - title: Stagiaire de recherche
+      institution: Institut Pprime, Poitiers, France
+      year: 04/2021 - 09/2021
+      description:
+        - Modélisation et simulation numérique de vibrations induites par écoulements aérodynamiques autour d’obstacles
+
+    - title: Stagiaire de recherche
+      institution: Université de Lund, Lund, Suède
+      year: 06/2020 - 09/2020
+      description:
+        - Étude de l'usure précoce des revêtements lors de l'usinage de superalliages de Nickel
+
+- title: Prix
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Prix de la meilleure présentation orale décerné au congrès Tamarys 2025, Limoges
+
+- title: Intérêts académiques
+  type: nested_list
+  contents:
+    - title: Mathématiques
+      items:
+        - Algèbre multilinéaire
+        - Probabilités
+    - title: Physique
+      items:
+        - Électromagnétisme
+        - Mécanique quantique ondulatoire
+        - Relativité Restreinte
+    - title: Astrophysique
+      items:
+        - Mécanique céleste
+        - Physique stellaire
+        - Relativité Générale
+        - Cosmologie
+
+- title: Autres Intérêts
+  type: list
+  contents:
+    - "<u>Sport:</u> Escalade, via ferrata, spéléologie, randonnée, jeu d'échecs, badminton"
+    - "<u>Informatique:</u> Modélisation 3D, effets spéciaux, programmation, simulateur Airbus A320"
+    - "<u>Détente:</u> Astronomie, jardinage, lecture, photographie"
+    - "<u>Musique:</u> Piano, guitare, polyphonie"
