@@ -14,13 +14,34 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-",
-    title: "",
+    id: "nav-about",
+    title: "About",
     section: "Navigation menu",
     handler: () => {
       window.location.href = "/en-us/";
     },
-  },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+  },{id: "nav-cv",
+          title: "CV",
+          description: "Below is a summary of my educational and professional background. You can also download my resume in PDF format.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/en-us/cv/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "List of publications in which I am an author or co-author, arranged in reverse chronological order.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/en-us/publications/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/en-us/projects/";
+          },
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -68,11 +89,6 @@ ninja.data = [{
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/3_project/";
-            },},{id: "projects-page-not-found",
-          title: 'Page not found',
-          description: "Looks like there has been a mistake. Nothing exists here.",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/404.html";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
@@ -103,61 +119,6 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/9_project/";
-            },},{id: "projects-about",
-          title: 'About',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/";
-            },},{id: "projects-blog",
-          title: 'Blog',
-          description: "a simple whitespace theme for academics",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/blog/";
-            },},{id: "projects-bookshelf",
-          title: 'Bookshelf',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/books/";
-            },},{id: "projects-cv",
-          title: 'CV',
-          description: "Below is a summary of my educational and professional background. You can also download my resume in PDF format.",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/cv/";
-            },},{id: "projects-submenus",
-          title: 'Submenus',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/projects/dropdown/";
-            },},{id: "projects-news",
-          title: 'News',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/news/";
-            },},{id: "projects-people",
-          title: 'People',
-          description: "members of the lab or group",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/people/";
-            },},{id: "projects-projects",
-          title: 'Projects',
-          description: "A growing collection of your cool projects.",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/projects/";
-            },},{id: "projects-publications",
-          title: 'Publications',
-          description: "List of publications in which I am an author or co-author, arranged in reverse chronological order.",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/publications/";
-            },},{id: "projects-repositories",
-          title: 'Repositories',
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/repositories/";
-            },},{id: "projects-teaching",
-          title: 'Teaching',
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/teaching/";
             },},{
         id: 'social-cv',
         title: 'CV',
