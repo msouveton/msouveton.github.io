@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Mahé
 middle_name: 
 last_name: Souveton
-keywords: mahe, souveton, al-folio, jekyll, academic, portfolio # add your own keywords or leave empty
+keywords: mahe, souveton, al-folio, jekyll, academic, portfolio, mathematics, physics # add your own keywords or leave empty
 icon: 🪐 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://msouveton.github.io # the base hostname & protocol for your site
