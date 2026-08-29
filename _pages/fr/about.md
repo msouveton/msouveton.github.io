@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Bonjour et bienvenue sur mon site personnel. Je suis actuellement doctorant en physique théorique et j'étudie l'interaction rayonnement-matière dans des milieux fibreux.
+Bonjour et bienvenue sur mon site personnel (en travaux !). Je suis actuellement doctorant en physique théorique et j'étudie l'interaction rayonnement-matière dans des milieux fibreux.
 
 Mon travail consiste en la détermination des propriétés radiatives effectives d'un milieu fibreux virtuel et pour ce faire, j'utilise d'une part une approche de rayonnement classique et d'optique géométrique aux grandes échelles, et d'autre part le formalisme des équations de Maxwell de l'électromagnétisme aux petites échelles.
 
@@ -41,7 +41,7 @@ Vous trouverez de plus amples détails sur mon travail, mes résultats, mais aus
 
 <p>Dans mon cas, mon travail est théorique et, en conséquence, je me donne pour cadre d'étude un matériau virtuel qui possèdent de bonnes propriétés morphologiques tout en restant proche des matériaux de l'industrie. Ainsi, mon milieu de référence consiste en un empilement aléatoire, mais statistiquement homogène et isotrope, de fibres modélisées comme des cylindres infinis homogènes et de même diamètre. Ils sont caractérisées par un indice complexe monochromatique et constituent donc des matériaux semi-transparents. Une première partie de mon travail a été d'étudier les propriétés mathématiques de tels empilements. J'ai notamment pu dériver les expressions de fonctions de distributions de cordes dans la phase fibreuse, fonctions importantes pour le reste de mon travail. Ce résultat a été publié dans un article.</p>
 
-<p>Dans une seconde partie, j'ai étudié les propriétés radiatives de ce milieu dans la limite de l'optique géométrique. J'utilise pour ce faire des algorithmes de lancers de rayons par méthode Monte Carlo capable de résoudre l'équation de transfert radiatif. Le résultats majeurs de cette partie a été la mise en évidence du comportement non Béérien du milieu et la mise en place d'un modèle radiatif analytique.</p>
+<p>Dans une seconde partie, j'ai étudié les propriétés radiatives de ce milieu dans la limite de l'optique géométrique. J'utilise pour ce faire des algorithmes de lancers de rayons par méthode Monte Carlo capable de résoudre l'équation de transfert radiatif. Le résultat majeur de cette partie a été la mise en évidence du comportement non Béérien du milieu et la mise en place d'un modèle radiatif analytique.</p>
 
 <p>Dans une dernière partie, j'étudie le comportement du milieu lorsque l'échelle des fibres est proche de la longueur d'onde. J'utilise une méthode d'approximation dipolaire discrète (DDA) pour résoudre les équations de Maxwell. La difficulté, qui constitue tout l'intérêt de cette approche, est d'observer la frontière entre les lois de l'électromagnétisme et celle du rayonnement classique. Peut-on imaginer déterminer un modèle radiatif classique capable d'approcher les résultats électromagnétiques dans le domaine sub-lambda ?</p>
 

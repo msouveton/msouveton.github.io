@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello and welcome to my personal website. I am currently a Ph.D. student in theoretical physics, studying the radiation-matter interaction in fibrous media.
+Hello and welcome to my personal website (under construction!). I am currently a Ph.D. student in theoretical physics, studying the radiation-matter interaction in fibrous media.
 
 My work involves the determination of the effective radiative properties of a virtual fibrous medium. To do this, I use, on the one hand, a classical radiation and geometric optics approach at large scales, and, on the other hand, the Maxwell’s equations formalism of electromagnetism at small scales.
 
