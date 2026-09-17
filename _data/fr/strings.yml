@@ -160,5 +160,5 @@ search:
     description: changer le thème du site selon le système par défaut
     title: utiliser le thème par défaut du système
   theme: thème
-selected_publications: publications sélectionnées
+selected_publications: Quelques publications
 site_description: Un thème simple et épuré pour les académiques. Basé sur le design de [*folio](https://github.com/bogoli/-folio).

@@ -3,18 +3,15 @@ page_id: about
 layout: about
 title: À propos
 permalink: /
-subtitle: <em>Doctorant en sciences à <a href='https://pprime.fr/'>l'institut Pprime</a>.</em>
+subtitle: <em>Doctorant en sciences à <a href='https://pprime.fr/'>l'institut Pprime</a>. Astronome amateur.</em>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Équipe TNR</p>
-    <p>Département FTC</p>
-    <p>Institut Pprime, Poitiers, France</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -28,58 +25,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Bonjour et bienvenue sur mon site personnel (en travaux !). Je suis actuellement doctorant en physique théorique et j'étudie l'interaction rayonnement-matière dans des milieux fibreux.
+Bonjour et bienvenue sur mon site personnel (en travaux). Je suis actuellement doctorant en physique théorique et j'étudie l'interaction rayonnement-matière dans des milieux fibreux.
 
-Mon travail consiste en la détermination des propriétés radiatives effectives d'un milieu fibreux virtuel et pour ce faire, j'utilise d'une part une approche de rayonnement classique et d'optique géométrique aux grandes échelles, et d'autre part le formalisme des équations de Maxwell de l'électromagnétisme aux petites échelles.
+Mon travail consiste en la détermination des propriétés radiatives effectives d'un milieu fibreux virtuel. J'utilise d'une part une approche de rayonnement classique et d'optique géométrique aux grandes échelles, et d'autre part, le formalisme des équations de Maxwell de l'électromagnétisme aux petites échelles. J'encadre en parallèle des TDs de mathématiques et des TPs de mécanique des fluides auprès d'élèves en école d'ingénieur.
 
 Vous trouverez de plus amples détails sur mon travail, mes résultats, mais aussi mes projets personnels sur ce site.
-
-<details>
-<summary style="font-size: 28px">Mon travail de recherche</summary>
-
-<p>Le contexte de mon travail est l'isolation thermique à très haute température. Un exemple typique est la protection des coiffes de fusées contre la chaleur subie pendant la phase de décollage et de mise en orbite, ce qui implique l'utilisation de matériaux nanofibreux.</p>
-
-<p>Dans mon cas, mon travail est théorique et, en conséquence, je me donne pour cadre d'étude un matériau virtuel qui possèdent de bonnes propriétés morphologiques tout en restant proche des matériaux de l'industrie. Ainsi, mon milieu de référence consiste en un empilement aléatoire, mais statistiquement homogène et isotrope, de fibres modélisées comme des cylindres infinis homogènes et de même diamètre. Ils sont caractérisées par un indice complexe monochromatique et constituent donc des matériaux semi-transparents. Une première partie de mon travail a été d'étudier les propriétés mathématiques de tels empilements. J'ai notamment pu dériver les expressions de fonctions de distributions de cordes dans la phase fibreuse, fonctions importantes pour le reste de mon travail. Ce résultat a été publié dans un article.</p>
-
-<p>Dans une seconde partie, j'ai étudié les propriétés radiatives de ce milieu dans la limite de l'optique géométrique. J'utilise pour ce faire des algorithmes de lancers de rayons par méthode Monte Carlo capable de résoudre l'équation de transfert radiatif. Le résultat majeur de cette partie a été la mise en évidence du comportement non Béérien du milieu et la mise en place d'un modèle radiatif analytique.</p>
-
-<p>Dans une dernière partie, j'étudie le comportement du milieu lorsque l'échelle des fibres est proche de la longueur d'onde. J'utilise une méthode d'approximation dipolaire discrète (DDA) pour résoudre les équations de Maxwell. La difficulté, qui constitue tout l'intérêt de cette approche, est d'observer la frontière entre les lois de l'électromagnétisme et celle du rayonnement classique. Peut-on imaginer déterminer un modèle radiatif classique capable d'approcher les résultats électromagnétiques dans le domaine sub-lambda ?</p>
-
-</details>
-
-<details>
-<summary style="font-size: 28px">Mes passions et loisirs</summary>
-
-<p>Tout d'abord, je suis passionnée d'astronomie et d'astrophysique. J'ai débuté à l'âge de 8 ans suite à une année scolaire sur le thème de l'espace. Nous avions dû préparer plusieurs exposés, construire des maquettes réduites et des outils astronomiques, faire des observations du ciel, rencontrer des lycéens en classe de sciences, participer au concours universitaire "Faîtes de la Science" (et y gagner un télescope), et enfin partir en voyage à la Cité de l'Espace de Toulouse. Cette aventure à contribuer presque entièrement à mon goût pour la science, et j'ai passé le reste de ma scolarité à lire des revues scientifiques et à découvrir un peu plus notre Univers. A l'heure actuelle, mes connaissances sont très polyvalentes, allant de la physique stellaire et de la planétologie à la cosmologie, et de la connaissance du ciel à la relativité générale. J'ai toujours été surpris par le manque de connaissances et de vision des échelles des personnes en général, probablement exacerbé par les images illustratives très trompeuses qu'on retrouve dans certains articles et documentaires grands publics ; ainsi que leur manque de curiosité pour ces questions (à part bien sûr quand cela concerne les fusées, les planètes et les trous noirs). C'est pourquoi j'ai toujours été très impressionné par l'art de la bonne vulgarisation. Cela m'a conduit, peu avant le début de ma thèse, à être animateur de planétarium. Mon travail consistait à :
-<ul>
-  <li>animer pendant une heure le dôme devant un public (famille ou scolaire),</li>
-  <li>interagir et répondre aux questions,</li>
-  <li>me déplacer avec un planétarium mobile dans des écoles et des collèges,</li>
-  <li>organiser des séances de travaux pratiques (fabrication de cartes du ciel, fabrication de minifusées avec moteurs à poudre).</li>
-</ul>
-
- A l'heure actuelle, je ne travaille pas directement sur un sujet astrophysique. Néanmoins, mon domaine est très relié. En effet, un des noms majeurs du rayonnement est Chandrasekhar, mastodonte de la physique autodidacte et qui a mis les mains dans tous les domaines. Il a regroupé dans un traité de nombreux résultats analytiques dont une des applications est le transfert thermique en milieu semi-transparent dans les étoiles. A côté de ça, il a laissé son nom à la masse critique des naines blanches : limite avant leur transformation en étoiles à neutrons. D'autre part, je travaille en électromagnétisme avec la méthode de l'approximation dipolaire discrète (DDA) qui a été développée pour l'étude des poussières interstellaires à dimensions fractales. Globalement, c'est un domaine qui m'intéresse relativement. J'aimerais travailler notamment sur les poussières des disques protoplanétaires.</p>
-
-<p>Je suis actuellement détenteur d'un télescope Dobson Skywatcher GoTo 300/1500. Après avoir passé des années à chercher manuellement les objets du ciel (avec beaucoup d'entrain), le choix d'une monture motorisé est principalement pour permettre des prises d'astrophotographie. Néanmoins, la monture étant azimutale, les temps de pose sont forcément limités par la rotation de champ. C'est pourquoi je ne possède pas encore de caméra pour l'astrophotographie : je me sers uniquement de mon téléphone. Je réalise mes traitements sur Pipp et Registax principalement. En voici un résultat.</p>
-
-<p>Concernant l'informatique, j'adore la programmation depuis que j'ai eu ma première calculatrice au lycée. Elle venait avec un langage Basic Casio. Je me suis intégré à une communauté en ligne spécialisé dans ce type de programmation et qui a été capable de monter des projets en langage C exécutable par la calculatrice. Des concours auxquels j'ai participé étaient organisés au sein de la communauté. En première, j'ai décidé d'aller plus loin et d'apprendre enfin un vrai langage. Mes options étaient le C/C++ ou Python, et c'est ce dernier que j'ai finalement choisi. Depuis, c'est devenu mon langage de prédilection parmi tout ceux que j'ai pu cotoyer : C, Fortran, Ada, Basic, HTML, etc. Vous pouvez retrouvez une liste de mes plus gros projets en Python sur la page dédiée.</p>
-
-<p>Toujours en informatique, j'ai toujours eu beaucoup d'admiration pour les effets spéciaux numériques, l'infographie et la modélisation 3D. Plus jeune, je me disais souvent que si je ne travaillais pas dans les sciences, je partirai dans les effets spéciaux. J'ai été pendant plusieurs années utilisateurs d'Adobe After Effect. Aujourd'hui, mes outils favoris sont sans nul doute Blender, véritable coûteau suisse et perle open source, ainsi que Da Vinci Resolve au besoin.</p>
-
-<p>Enfin, j'aime particulièrement l'aviation civile et cela s'est traduit par un goût prononcé pour les simulateurs de vol (via le logiciel open source FlightGear, puis le logiciel payant professionnel XPlane 11). Je pilote sur la famille des Airbus A320 (A318-A319-A320-A321) et parfois sur les cockpits similaires (A330, A340). Les A350 et A380, bien que proches, ont beaucoup de variations. Je connais une grande partie des procédures en vol de ces appareils et j'aime tout particulièrement la philosophie très "programmatique" d'Airbus.</p>
-
-<p>En terme de sports, je pratique majoritairement l'escalade : en blocs, difficultés artificielles et falaises. Je grimpe officiellement depuis mes 12 ans, avec des périodes de creux. Depuis mon école d'ingénieur, mon activité a pu fortemement reprendre et je fais parfois jusqu'à 10h d'escalade par semaine. Mon niveau n'est pas spécialement élevé néanmoins : en intérieur je travaille du 7A en tête, tandis qu'en extérieur j'ai grimpé maximum du 6A+ (la peur du vide - le gaze - jouant un très mauvais rôle) mais je prépare activement en moulinette des enchaînements pour espérer monter une 7A. En parallèle de ça, j'étudie la théorie : manip de relais, manip de grandes voies, rappels, réchappes, théorie des noeuds, histoire de la discipline. Je recommande fortement le roman "Premier de cordée" qui retrace la vie d'alpiniste dans les années 1930. Mes autres sports sont plus sporadiques et dépendent de la saison et de mon agenda. Suivant les occasions, cela peut comprendre du renforcement musculaire, de la course à pied, du vélo, du tir à l'arc ou encore du badminton.</p>
-
-</details>
-
-<details>
-<summary style="font-size: 28px">Mes projets personnels</summary>
-
-<p>Recueil d'astrophysique</p>
-
-<p>Mon domaine personnel de prédilection est l'astronomie et l'astrophysique</p>
-
-</details>
 
 
 <div class="terminal-box" style="background: #1e1e1e; color: #f1f1f1; font-family: monospace; padding: 18px; border-radius: 6px; box-shadow: 0 5px 15px rgba(0,0,0,0.4); margin: 25px 0; max-height: 400px; overflow-y: auto;">
@@ -129,3 +79,44 @@ Vous trouverez de plus amples détails sur mon travail, mes résultats, mais aus
     }
   });
 </script>
+
+---
+
+## Mon travail
+
+Le contexte de mon travail est l'**isolation thermique** à très hautes températures. Un exemple type est l'emploi de matériaux nanofibreux pour la protection des coiffes de fusées contre la chaleur subie au décollage.
+
+Ma recherche est toutefois théorique et a pour cadre un matériau virtuel ayant des **propriétés morphologiques** idéalisées : un empilement aléatoire de fibres cylindriques semi-transparentes. Une première partie de mon travail a été de calculer les propriétés mathématiques de tels empilements, notamment les distributions des longueurs de cordes dans la phase fibreuse. Ce résultat a été publié dans Physical Review (voir l'onglet Publications).
+
+J'ai ensuite étudié les **propriétés radiatives** de mon matériau aux grandes échelles, c'est-à-dire dans la limite de l'optique géométrique. Pour simuler la propagation du rayonnement, j'utilise une méthode Monte Carlo en lancer de rayons. Les calculs de transmittances et de réflectances ont révélé le comportement non Béérien du milieu et permis le développement d'un modèle radiatif analytique. Ces résultats sont en cours de publication pour JQSRT.
+
+Dans une dernière partie, j'étudie le comportement du milieu lorsque l'échelle des fibres diminue et s'approche de la longueur d'onde à l'aide de la méthode de l'approximation dipolaire discrète (DDA) pour résoudre les équations de Maxwell. L'intérêt est d'observer la frontière entre les lois de l'électromagnétisme et du rayonnement classique. Peut-on imaginer déterminer un modèle radiatif classique capable d'approcher les **résultats électromagnétiques** dans le domaine sub-lambda ?
+
+---
+
+## Mes passions
+
+Passionné depuis mes huit ans par l'**astronomie** après une année scolaire sur le thème de l'espace &mdash; avec un télescope remporté au concours universitaire "Faîtes de la science" de Corse et un voyage à la Cité de l'Espace de Toulouse &mdash;, mes intérêts sont aujourd'hui très variés : observation du ciel, planétologie, physique stellaire, cosmologie, relativité, histoire des sciences et de la conquête spatiale,... J'attache aussi beaucoup d'importance à la vulgarisation et j'ai été animateur de planétarium en 2023. Mes missions : animer le dôme, répondre aux questions du public, mais également intervenir dans des écoles et collèges.
+
+Concernant ma thèse, elle n'est pas directement lié à l'astrophysique. Cependant, un des noms majeurs du rayonnement est le célèbre Chandrasekhar qui a laissé son nom à la masse critique des naines blanches &mdash; et à bien d'autres choses. De plus, j'utilise en électromagnétisme la méthode DDA qui a été développée pour l'étude des poussières interstellaires. C'est un domaine de recherche qui m'intéresse actuellement.
+
+En astronomie amateur, je suis détenteur d'un télescope **Dobson Skywatcher GoTo 300/1500**. Après avoir longtemps apprécié la recherche manuelle des objets du ciel, le choix d'une monture motorisé est motivé par l'astrophotographie. Toutefois, la monture est azimutale et les temps de pose sont forcément limités par la rotation de champ. Pour le moment, je ne me sers uniquement que de mon téléphone, mais je réalise des traitements sur Pipp et Registax. Quelques résultats sont visibles dans Projets.
+
+En informatique, j'aime la programmation depuis ma découverte du langage Basic Casio au lycée. Au travers de concours, je me suis intégré à une communauté en ligne capable de coder en langage C sur calculatrices. Peu de temps après, j'ai décidé d'apprendre un vrai langage informatique. Parmi mes options, j'ai retenu **Python** qui est resté depuis mon langage de prédilection. Une liste de mes codes en Python est visible sur ma page Projets. A noter également mon admiration pour les effets spéciaux et la modélisation 3D. Après plusieurs années sous Adobe After Effect, mon outil phare aujourd'hui est sans nul doute Blender, véritable coûteau suisse et perle open source.
+
+---
+
+## Mes loisirs
+
+Je conclus ma présentation par une liste non-exhaustives de loisirs qui me passionnent :
+- L'aviation civile et les **simulateurs de vol** (XPlane 11). Je pilote sur la famille A320 et apparenté.
+- L'**escalade** en blocs, en difficultés et en falaises. Je pratique jusqu'à 10h par semaine, pour un niveau intermédiaire. Je travaille du 7A en tête.
+- D'autres sports plus sporadiques : via ferrata, spéléologie, renforcement musculaire, course à pied, vélo, tir à l'arc ou encore badminton.
+- Les **échecs**. Mes ouvertures favorites sont l'Écossaise et la Caro-Kann. Mon ELO Chess.com est de 1300 en blitz et 1500 en rapide.
+- La gastronomie et la mycologie. Grand amateur de cèpes de Bordeaux et de girolles, je ne révèlerai pas mes coins secrets en forêt.
+- Le Rubik's cube avec la méthode Ofapel et Fridrich.
+- La lecture, la peinture et les jeux de sociétés.
+- Le jardinage, la botanique, la faune et la flore. J'ai un attrait pour la connaissance des plantes et des animaux depuis tout petit.
+- La musique et les chants polyphoniques corses. Je pratique en amateur la guitare et le piano.
+
+---

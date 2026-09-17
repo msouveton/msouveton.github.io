@@ -5,9 +5,10 @@
 "PhysRev":
   url: https://journals.aps.org/
 
-"Vision":
-  color: "#009f36"
-
 "JQSRT":
   url: https://www.sciencedirect.com/journal/journal-of-quantitative-spectroscopy-and-radiative-transfer
   color: "#009f36"
+
+"RAD":
+  url: https://www.ichmt.org/rad-25
+  color: "#eb3434"
