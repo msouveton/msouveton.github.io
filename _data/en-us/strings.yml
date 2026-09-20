@@ -86,6 +86,10 @@ footer:
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+header:
+  search: Search
+  switch_language: Switch language
+  change_theme: Change theme
 latest_posts: latest posts
 months:
   long:

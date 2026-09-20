@@ -82,6 +82,43 @@
       items:
         - Prix de la meilleure présentation orale décerné au congrès Tamarys 2025, Limoges
 
+- title: Conférences
+  type: time_table
+  contents:
+    - title: IHTC
+      institution: Rio de Janeiro, Brésil
+      year: 08/2026
+    - title: LIP-LII
+      institution: Rouen
+      year: 07/2026
+    - title: JDD
+      institution: Institut Pprime, Poitiers
+      year: 07/2026
+    - title: GDR Tamarys
+      institution: Paris Saclay
+      year: 06/2026
+    - title: InterPore
+      institution: Nantes
+      year: 05/2026
+    - title: JEMP
+      institution: Orléans
+      year: 11/2025
+    - title: Journée séminaire électromagnétisme
+      institution: Paris
+      year: 10/2025
+    - title: GDR Tamarys
+      institution: Limoges
+      year: 07/2025
+    - title: JDD
+      institution: Institut Pprime, Poitiers
+      year: 07/2025
+    - title: SFT
+      institution: Chambéry
+      year: 06/2025
+    - title: GDR Tamarys
+      institution: Poitiers
+      year: 06/2024
+
 - title: Intérêts académiques
   type: nested_list
   contents:

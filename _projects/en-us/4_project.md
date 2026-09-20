@@ -1,81 +1,19 @@
 ---
 page_id: project_4
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: Minecraft
+description: Implementing a copy of the game Minecraft in Python
+img: assets/img/projects/minecraft_illustration.jpg
+importance: 1
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This is probably the biggest Python project I’ve ever attempted. The idea came to me in 2018 at a time when Python was already my language of choice; I’d been involved in lots of small games but had never tried anything involving 3D. At most, I’d tried to create a small engine capable of rendering 3D primitives using a basic 2D drawing library. That hadn’t been successful. At the time, I lacked some essential knowledge about how cameras work – namely, the use of view and projection matrices – which would have greatly simplified the calculations for me...
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+That said, I’d been wanting to move on to a 3D game for some time, and what better way than to dive headfirst into a Minecraft-like game, whose blocky, low-textured appearance suggested it would be relatively easy to implement. It was, of course, out of the question to recreate a game engine from scratch using a 2D library, so I had to make a choice. I opted to use OpenGL and the Pyglet module. There are, of course, other libraries that implement this API, but Pyglet struck me as the most streamlined and therefore the closest to the hardware. As for choosing Python rather than a compiled language, this was primarily to prove that we could do without it to a certain extent: what could be better than combining the freedom of Python with the power of GPU computing?
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The project was carried out in three phases. The first phase lasted around three weeks in 2018. That was when I learnt to use Pyglet and learnt the OpenGL 1.X language. Despite the initial difficulty in getting to grips with all of OpenGL’s functions and Pyglet’s philosophy, I managed to build my 3D editor from virtually scratch (since in OpenGL 1.X and Pyglet 1.X you have to manually manipulate the view matrices and the buffer spaces displayed on screen) and, by the end, had produced the beginnings of a game: a small explorable world with very basic movement (which was jerky when I retested it recently, particularly when it came to jumping and gravity), a basic HUD and a browsable inventory with a few blocks to interact with the environment. By the end of this phase, I’d made enough progress to realise how difficult it would be to take it further, to achieve much more precise mechanics, and above all, to have perfectly structured code. I lacked the mindset of a video game programmer.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The second phase was very short and lasted about a week in 2021. During this period, I had initially planned to completely rewrite my code from scratch. But as I didn’t know how to go about it, I settled for adding Minecraft’s text chat. The reason was simple: by adding the text chat, I gained a very handy way of coding a language to communicate in real time, whilst the game was running, using the game’s variables, and without having to stop and restart the code every time! But it was a real challenge: how could I add a scrollable text box to the HUD that players could interact with? After several days of trying, I came up with some initial code that did what I wanted, but due to a lack of energy, that phase came to an end there.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+The final phase took place in 2026 and was triggered by the switch to Pyglet 2.X and OpenGL 3+. A paradigm shift meant that my previous code was no longer executable, but it also meant significant optimisation was on the horizon. I therefore set myself the challenge of rewriting my original code from scratch, focusing straight away on all the issues I’d encountered previously. The initial objectives were therefore as follows: to improve the code’s object-oriented structure by properly isolating the game’s various systems and implementing a communication system between them; to improve the 2D implementation by ensuring the HUD system was very clean and robust; and finally, to make the camera movement flawless. By ‘perfect’, I mean as close as possible to the real game, both in terms of keyboard controls and the effects of gravity. On this last point, I’m proud to say that I managed it very well and that the in-game feel is now very close to the real thing. This taught me a great deal, not least that movement in Minecraft is based on friction coefficients!

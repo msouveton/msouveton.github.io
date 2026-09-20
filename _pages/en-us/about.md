@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: <em>Ph.D. student in science at <a href='https://pprime.fr/en/home-pprime/'>the Pprime institute</a>. Amateur astronome</em>
+subtitle: <em>Ph.D. student in science at <a href='https://pprime.fr/en/home-pprime/'>the Pprime institute</a>. Amateur astronomer</em>
 
 profile:
   align: right
@@ -53,7 +53,7 @@ I have been passionate about **astronomy** since the age of eight, following a s
 
 Regarding my thesis, it is not directly linked to astrophysics. However, one of the major figures of radiation is the famous Chandrasekhar who, among other things, left his name to the critical mass of white dwarfs. Furthermore, in electromagnetism, the DDA method was developed for the study of interstellar dust and it is a research field that interests me.
 
-As an amateur astronome, I own a **Dobson Skywatcher GoTo 300/1500** telescope. As someone who enjoys manually locating celestial objects, I switched to a motorized mount to get started with astrophotography. However, the mount is alt-azimuth and exposure times are necessarily limited by field rotation. For now, I am only using my phone, but I perform processing on Pipp and Registax. A few results are visible [here]({{ '/projects/' | relative_url }}).
+As an amateur astronomer, I own a **Dobson Skywatcher GoTo 300/1500** telescope. As someone who enjoys manually locating celestial objects, I switched to a motorized mount to get started with astrophotography. However, the mount is alt-azimuth and exposure times are necessarily limited by field rotation. For now, I am only using my phone, but I perform processing on Pipp and Registax. A few results are visible [here]({{ '/projects/' | relative_url }}).
 
 In computer science, I have liked programming since my discovery of the Casio Basic language in high school. Through contests, I integrated into an online community capable of coding in C on calculators. Shortly after, I decided to learn a real programming language. Among my options, I chose **Python** which is, since then, my language of choice. A list of my codes is presented [here]({{ '/projects/' | relative_url }}). Note also my admiration for special effects and 3D modeling. After several years on Adobe After Effects, my flagship tool today is undoubtedly Blender, a true Swiss army knife and open-source pearl.
 

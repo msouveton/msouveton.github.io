@@ -120,7 +120,7 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+              <button id="search-toggle" title="{{ site.data[site.active_lang].strings.header.search }}" onclick="openSearchModal()">
                 <!-- ctrl k -->
                 <span class="nav-link"><i class="ti ti-search"></i></span>
               </button>
@@ -137,7 +137,7 @@
               <li class="nav-item active">
                 {% if site.active_lang == site.default_lang %}
                   <!-- Link goes to the OTHER language, but displays the ACTIVE language flag -->
-                  <a class="nav-link" title="Switch language" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
+                  <a class="nav-link" title="{{ site.data[site.active_lang].strings.header.switch_language }}" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
                     {% if site.country_flag %}
                       <span class="fi fi-{{ site.active_lang | split: "-" | last }}"></span>
                     {% else %}
@@ -145,11 +145,11 @@
                     {%- endif -%}
                   </a>
                 {% else %}
-                  <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
+                  <a class="nav-link" title="{{ site.data[site.active_lang].strings.header.switch_language }}" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
                     {% if site.country_flag %}
-                      <span class="fi fi-{{ site.default_lang | split: "-" | last }}"></span>
+                      <span class="fi fi-{{ site.active_lang | split: "-" | last }}"></span>
                     {% else %}
-                      {{ site.default_lang | upcase }}
+                      {{ site.active_lang | upcase }}
                     {%- endif -%}
                   </a>
                 {% endif %}
@@ -208,7 +208,7 @@
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
+              <button id="light-toggle" title="{{ site.data[site.active_lang].strings.header.change_theme }}">
                 <i class="ti ti-sun-moon" id="light-toggle-system"></i>
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>
