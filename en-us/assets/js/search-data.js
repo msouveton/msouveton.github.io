@@ -41,51 +41,36 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/en-us/projects/";
           },
-        },{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+        },{id: "projects-monte-carlo-radiative-calculation",
+          title: 'Monte Carlo radiative calculation',
+          description: "Ballistic ray tracing in fibrous media using the Monte Carlo method",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-black-hole-simulation",
+          title: 'Black hole simulation',
+          description: "Calculation of the distortion of an image by a Schwarzschild black hole",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-earth-curvature-calculator",
+          title: 'Earth Curvature Calculator',
+          description: "Online code for calculating the distance to the horizon based on the observer’s position",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-minecraft",
+          title: 'Minecraft',
+          description: "Implementing a copy of the game Minecraft in Python",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-chess-game",
+          title: 'Chess game',
+          description: "Implementation of an artificial intelligence system for chess",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-rock-climbing",
+          title: 'Rock climbing',
+          description: "List of key sections to practise on a crag",
           section: "Projects",handler: () => {
               window.location.href = "/en-us/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/en-us/projects/9_project/";
             },},{
         id: 'social-cv',
         title: 'CV',

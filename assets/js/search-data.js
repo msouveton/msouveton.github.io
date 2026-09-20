@@ -41,8 +41,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-calcul-radiatif-dsmc",
-          title: 'Calcul radiatif DSMC',
+        },{id: "projects-calcul-radiatif-monte-carlo",
+          title: 'Calcul radiatif Monte Carlo',
           description: "Tirs balistiques de rayons en milieu fibreux par méthode Monte Carlo",
           section: "projets",handler: () => {
               window.location.href = "/projects/1_project/";
@@ -53,7 +53,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-calculateur-de-courbure-terrestre",
           title: 'Calculateur de courbure terrestre',
-          description: "Distance de l&#39;horizion en fonction de l&#39;observateur",
+          description: "Code en ligne pour la distance de l&#39;horizion en fonction de l&#39;observateur",
           section: "projets",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-minecraft",
@@ -66,26 +66,11 @@ ninja.data = [{
           description: "Implémentaiton d&#39;une intelligence artificielle d&#39;échecs",
           section: "projets",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-escalade-en-falaise",
+          title: 'Escalade en falaise',
+          description: "Liste de passages clés à travailler en falaise",
           section: "projets",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "projets",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "projets",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "projets",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
